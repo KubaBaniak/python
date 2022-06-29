@@ -9,4 +9,4 @@ class Person():
         self.name = name
 
     def __repr__(self):
-        return 'Person {}, {}'.format(self.addr, self.name)
+        return 'User: {}, {}'.format(self.name, self.addr)
